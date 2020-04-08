@@ -1,0 +1,5 @@
+ES_Biblioteca.Biblioteca$Iteratore
+ES_Biblioteca.Biblioteca$Nodo
+ES_Biblioteca.Biblioteca$Libro
+ES_Biblioteca.Biblioteca
+ES_Biblioteca.Biblioteca$LibroException

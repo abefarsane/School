@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>150</y>
+      <w>390</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Biblioteca
+-
+-input: String
+--
++searchByEditor(in String): void
++searchByYear(in int): void
++searchByTitle(in String): void
++searchByCode(in String): void
++removeAtHead(): void
++removeInQueque(): void
++removeInPosition(in int): void
++addAtHead(in Libro): void
++addInQueque(in Libro): void
++addInPosition(in Libro,int int): void
++showAll(): void
++getIterator(): Iteratore</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>390</y>
+      <w>230</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;210.0;70.0;10.0;70.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>510</y>
+      <w>160</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Iteratore
+-
+-nodo: Nodo
+-restore: Nodo
+--
++Iteratore(in Nodo)
++restoreIterator(): void
++hasNext(): boolean
++next(): Libro</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>510</y>
+      <w>160</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Nodo
+-
+-info: Libro
+-link: Nodo
+--
++Nodo(in Libro)
++Nodo(in Libro,in Nodo)
++setInfo(in Libro): void
++setLink(in Nodo): void
++getInfo(): Libro
++getLink(): Nodo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>510</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>LibroException
+-
+-messaggio: String
+--
++LibroException(in String)
++getError(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>510</y>
+      <w>300</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Libro
+-
+-titolo: String
+-editore: String
+-codice: String
+-dataPub: LocalDate
+-
++Libro(in String,in String,in String,in LocalDate)
++Libro(in Libro)
++getTitolo(): String
++getEditore(): String
++getCodice(): String
++getData(): LocalDate
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>390</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;90.0;10.0;90.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>390</y>
+      <w>30</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>390</y>
+      <w>140</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;120.0;80.0;120.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>150</y>
+      <w>300</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>UserInterface
+-
+-input: String
+-inputNumber: int
+-
++mainMenu():void
++askReturn(): void
++setBookData(): Libro
++clean(): void
++input(in String): String
++inputNum(in String): int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

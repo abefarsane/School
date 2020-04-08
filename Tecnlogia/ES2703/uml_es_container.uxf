@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>45</x>
+      <y>243</y>
+      <w>279</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>UserInterface
+-
+- exe: Deposito
+-
++ addExamples(): void
++ mainMenu(): void
++ input(in Str): String
++ inputNum(in Str): int
++ inputNum(in Str,in Int): int
++ askReturn(): void
++ clean(): void
++ setContainerInfo(): Deposito.Piazza.Container
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>468</x>
+      <y>207</y>
+      <w>306</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>Deposito
+-
+- numPiazze: int
+- head: Nodo
++ getLinkPosizione(in Int): Nodo
++ getNumTotContainer(): int
++ showAvailable(): void
++ searchContainerByCode(in int): Piazza.Container
++ getNumPiazze(): int
++ getPiazzaImpilabile(): void
++ addAtHead(in Piazza): void
++ addAtQueque(in Piazza): void
++ addAtPosition(in Piazza, in int): void
++ removeAtHead(): boolean
++ removeInQueque(): boolean
++ removeAtPosition(in Int): boolean
++ showAll(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>90</y>
+      <w>243</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Nodo
+-
+- info: Piazza
+- link: Nodo
+-
+Nodo(in Piazza)
+Nodo(in Piazza, in Nodo)
++ setLink(in Nodo): void
++ setInfo(in Piazza): void
++ getLink(): Nodo
++ getInfo(): Piazza
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>252</y>
+      <w>243</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Iteratore
+-
+- nodo: Nodo
+-
+Iteratore(in Nodo)
+IIteratore()
+-
++ hasNext(): boolean
++ next(): Piazza
++ getIteratore():  Iteratore
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>396</y>
+      <w>243</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Piazza
+-
+- nContainer: int
+- head: Nodo
+-
+Piazza()
++ getLinkPosizione(in Int): Nodo
++ creaNodo(in Container, in Nodo): Nodo
++ push(in Container): void
++ pop(): Container
++ showAll(): void
++ getIterator(): Iteratore
++ getNumContainer(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1161</x>
+      <y>657</y>
+      <w>180</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Nodo
+-
+- info: Container
+- link: Nodo
+-
+Nodo(in Container)
+Nodo(in Container, in Nodo)
++ setLink(in Nodo): void
++ setInfo(in Container): void
++ getLink(): Nodo
++ getInfo(): Container
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1161</x>
+      <y>495</y>
+      <w>180</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Iteratore
+-
+- nodo: Nodo
+-
+Iteratore(in Nodo)
+IIteratore()
+-
++ hasNext(): boolean
++ next(): Piazza
++ getIteratore():  Iteratore
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1161</x>
+      <y>360</y>
+      <w>180</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+- info: String
+- code: int
+-
+Container(in int,in String)
+Container(in Container)
++ getInfo(): String
++ getCode(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>756</x>
+      <y>144</y>
+      <w>81</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;50.0;110.0;50.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>756</x>
+      <y>306</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>756</x>
+      <y>414</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1044</x>
+      <y>423</y>
+      <w>135</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1044</x>
+      <y>504</y>
+      <w>135</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0;100.0;60.0;130.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1044</x>
+      <y>549</y>
+      <w>135</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0;90.0;200.0;130.0;200.0</additional_attributes>
+  </element>
+</diagram>

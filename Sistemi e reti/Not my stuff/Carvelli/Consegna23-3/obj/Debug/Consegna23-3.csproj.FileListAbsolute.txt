@@ -1,0 +1,11 @@
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\bin\Debug\Consegna23-3.exe.config
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\bin\Debug\Consegna23-3.exe
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\bin\Debug\Consegna23-3.pdb
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\obj\Debug\Consegna23-3.csprojAssemblyReference.cache
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\obj\Debug\Consegna23_3.Form1.resources
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\obj\Debug\Consegna23_3.Properties.Resources.resources
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\obj\Debug\Consegna23-3.csproj.GenerateResource.cache
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\obj\Debug\Consegna23-3.csproj.CoreCompileInputs.cache
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\obj\Debug\Consegna23-3.exe
+D:\Scuola\Triennio\Scuola_4\Sistemi\Consegna23-3\Consegna23-3\obj\Debug\Consegna23-3.pdb
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Carvelli\Consegna23-3\obj\Debug\Consegna23-3.csprojAssemblyReference.cache

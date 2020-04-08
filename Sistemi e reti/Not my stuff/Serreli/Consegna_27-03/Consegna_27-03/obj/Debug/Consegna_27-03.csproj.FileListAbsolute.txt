@@ -1,0 +1,19 @@
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.csprojAssemblyReference.cache
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27_03.frmCollisioni.resources
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27_03.Properties.Resources.resources
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.csproj.GenerateResource.cache
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.csproj.CoreCompileInputs.cache
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\bin\Debug\Consegna_27-03.exe.config
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\bin\Debug\Consegna_27-03.exe
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\bin\Debug\Consegna_27-03.pdb
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.exe
+I:\Scuola\Sistemi e Reti\C#\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.pdb
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\bin\Debug\Consegna_27-03.exe.config
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\bin\Debug\Consegna_27-03.exe
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\bin\Debug\Consegna_27-03.pdb
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.csprojAssemblyReference.cache
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27_03.frmCollisioni.resources
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27_03.Properties.Resources.resources
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.csproj.GenerateResource.cache
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.exe
+C:\Users\abefa\Desktop\Scuola\Sistemi e reti\Not my stuff\Serreli\Consegna_27-03\Consegna_27-03\obj\Debug\Consegna_27-03.pdb
