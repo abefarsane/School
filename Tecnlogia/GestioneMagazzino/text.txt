@@ -1,0 +1,26 @@
+Si consideri un sistema per la gestione di un magazzino di un negozio di Informatica.
+
+Il sistema è in grado di gestire le seguenti operazioni:
+
+
+	
+Arrivo di nuovi prodotti;
+	Controllo del livello di scorta di un prodotto;
+	Estrazione del prodotto per la vendita e fatturazione al cliente finale; //FATTURA
+	Emissione automatica di un ordine al fornitore del prodotto qualora il livello di scorta scende al di sotto di una certa soglia // Soglia 50 pezzi
+	Gestione del personale(ruoli)
+
+
+Si illustrino le gerarchie di classi più significative e si costruisca il relativo diagramma di classi.
+
+
+
+
+PRODOTTO:
+	- String tipoProdotto
+	- String marcaProdotto
+	- Int numInStock
+
+	+ getTipo
+	+ getMarca
+	+ getNumInStock
